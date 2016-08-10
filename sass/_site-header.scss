@@ -1,16 +1,27 @@
 .site-header {
   padding-top: 30px;
-  img{
+  .main-logo{
+    float: left;
+  }
+  img {
     max-width: 100%;
     height: auto;
   }
+  .description-logo {
+    float: left;
+    padding-left: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 200px;
+  }
   .list-button {
     text-align: right;
-    @include respond-to-custom-size(null, 768px){
+    @include respond-to-custom-size(null, 768px) {
       margin-top: 15px;
       margin-bottom: 15px;
     }
-    .icon{
+    .icon {
       height: 90px;
       width: 75px;
       display: inline-block;
@@ -18,23 +29,23 @@
       color: #ffffff;
       text-align: center;
       vertical-align: top;
-      @include respond-to-custom-size(null, 768px){
+      @include respond-to-custom-size(null, 768px) {
         width: 70px;
       }
     }
-    .icon-question{
+    .icon-question {
       background: #5a873b url('../img/question.png') no-repeat top 10px center;
       padding-top: 40px;
     }
-    .icon-faq{
+    .icon-faq {
       background: #5d899e url('../img/faq.png') no-repeat top 10px center;
       padding-top: 40px;
     }
-    .icon-phone{
+    .icon-phone {
       background: rgba(90, 90, 90, 0.71) url('../img/phone.png') no-repeat top 10px center;
       padding-top: 40px;
     }
-    .icon-contact{
+    .icon-contact {
       background: rgba(90, 90, 90, 0.71) url('../img/contact.png') no-repeat top 10px center;
       padding-top: 40px;
     }

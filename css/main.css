@@ -1812,9 +1812,18 @@ a {
 
 .site-header {
   padding-top: 30px; }
+  .site-header .main-logo {
+    float: left; }
   .site-header img {
     max-width: 100%;
     height: auto; }
+  .site-header .description-logo {
+    float: left;
+    padding-left: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    max-width: 200px; }
   .site-header .list-button {
     text-align: right; }
     @media only screen and (max-width: 768px) {
