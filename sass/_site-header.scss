@@ -1,7 +1,15 @@
 .site-header {
   padding-top: 30px;
+  img{
+    max-width: 100%;
+    height: auto;
+  }
   .list-button {
     text-align: right;
+    @include respond-to-custom-size(null, 768px){
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
     .icon{
       height: 90px;
       width: 75px;
@@ -10,6 +18,9 @@
       color: #ffffff;
       text-align: center;
       vertical-align: top;
+      @include respond-to-custom-size(null, 768px){
+        width: 70px;
+      }
     }
     .icon-question{
       background: #5a873b url('../img/question.png') no-repeat top 10px center;

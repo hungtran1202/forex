@@ -42,6 +42,8 @@
             src='./js/jquery-migrate.min.js?ver=1.4.1'></script>
     <script type='text/javascript'
             src='./js/jquery.bxslider.min.js?ver=1.12.4'></script>
+    <script type='text/javascript'
+            src='./js/main.js?ver=1.12.4'></script>
 </head>
 
 <body class="home page page-id-2 page-template page-template-tmpl-home page-template-tmpl-home-php logged-in admin-bar no-customize-support">
@@ -76,25 +78,30 @@
     <!------- .site-content -->
     <div class="site-content">
         <div class="banner">
-            <div class="container">
-                <div class="banner-left">
-                    <form action="">
-                        <input name="name" type="text" placeholder="Tên của bạn">
-                        <input name="phone" type="text" placeholder="Số điện thoại của bạn">
-                        <input name="email" type="email" placeholder="Email của bạn">
-                        <input name="accept" type="checkbox" id="accept">
-                        <label for="accept"> Tôi đồng ý các điều kiện và điều khoản của hợp đồng Khách hàng</label>
-                        <input type="submit" value="BẮT ĐẦU GIAO DỊCH">
-                    </form>
-                </div>
-                <div class="banner-right">
-                    <div class="banner-intro">
-                        <div class="big-text">GIAO DỊCH NGOẠI HỐI FOREX</div>
-                        <div class="small-text">và vàng</div>
+            <div class="slider slider-loading">
+                <div class="slider-item" style="background: url('./img/bg-banner.png') no-repeat center;background-size: cover"></div>
+                <div class="slider-item" style="background: url('./img/bg-banner.png') no-repeat center;background-size: cover"></div>
+            </div>
+            <div class="main-content-banner">
+                <div class="container">
+                    <div class="banner-left">
+                        <form action="">
+                            <input name="name" type="text" placeholder="Tên của bạn">
+                            <input name="phone" type="text" placeholder="Số điện thoại của bạn">
+                            <input name="email" type="email" placeholder="Email của bạn">
+                            <input name="accept" type="checkbox" id="accept">
+                            <label for="accept"> Tôi đồng ý các điều kiện và điều khoản của hợp đồng Khách hàng</label>
+                            <input type="submit" value="BẮT ĐẦU GIAO DỊCH">
+                        </form>
                     </div>
-                    <img src="./img/banner-right.png" alt="banner right">
+                    <div class="banner-right">
+                        <div class="banner-intro">
+                            <div class="big-text">GIAO DỊCH NGOẠI HỐI FOREX</div>
+                            <div class="small-text">và vàng</div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
                 </div>
-                <div class="clearfix"></div>
             </div>
         </div>
         <div class="wrapper-content">
@@ -105,11 +112,11 @@
                 <div class="list-block">
                     <div class="row">
                         <div class="col-md-4 col-sm-6 block-item">
-                            <div class="block-item-inner icon-1">
+                            <div class="block-item-inner icon-1 ">
                                 <h4 class="title-item">
                                     Đòn bẩy Cạnh tranh nhất
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     Không giống như các công ty môi giới khác, chúng tôi cung cấp một trong những tỷ lệ
                                     đòn bẩy cao nhất trong thị trường forex, lên đến 1: 3000. Bằng cách giao dịch với
                                     mức đòn bẩy cao hơn, bạn có thể gia tăng tiềm năng sinh lời của mình.
@@ -117,11 +124,11 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 block-item">
-                            <div class="block-item-inner icon-2">
+                            <div class="block-item-inner   icon-2">
                                 <h4 class="title-item">
                                     Mức Chênh Lệch Giá Cực Thấp
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     Bạn có thể giao dịch với các mức chênh lệch giá cố định và biến đổi, là những mức
                                     chênh lệch giá thấp nhất trên thị trường, bắt đầu từ 0.1 trên tài khoản ECN và 0.5
                                     trên tài khoản Standard.
@@ -129,11 +136,11 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 block-item">
-                            <div class="block-item-inner icon-3">
+                            <div class="block-item-inner  icon-3">
                                 <h4 class="title-item">
                                     Đào tạo Miễn phí
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     Bạn không phải là một chuyên gia? Không sao. Chúng tôi sẽ cung cấp cho bạn hàng loạt
                                     các bài viết, hướng dẫn, hội thảo để chỉ cho bạn cách sử dụng những chiến lược giao
                                     dịch hiệu quả nhất.
@@ -145,7 +152,7 @@
                                 <h4 class="title-item">
                                     Miễn phí Nạp tiền
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     Chúng tôi mong muốn giúp bạn tận dụng tối đa thời gian & tiền bạc của bạn, vì vậy
                                     chúng tôi sẽ hoàn trả bất kỳ khoản phí nào được tính vào tài khoản của bạn khi bạn
                                     thực hiện nạp tiền. Chúng tôi cũng đang cung cấp tính năng rút tiền nhanh để giúp
@@ -154,11 +161,11 @@
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-6 block-item">
-                            <div class="block-item-inner icon-5">
+                            <div class="block-item-inner  icon-5">
                                 <h4 class="title-item">
                                     Khớp Lệnh Cực Nhanh
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     FBS cung cấp khớp lệnh nhanh nhất trên thị trường. Tại ForexTime, giao dịch của bạn
                                     sẽ được thực hiện chỉ trong mili giây.
                                 </div>
@@ -170,7 +177,7 @@
                                     Phân tích Kỹ thuật & Phân tích
                                     cơ bản Miễn phí
                                 </h4>
-                                <div class="intro-item">
+                                <div class="intro-item justify">
                                     Chúng tôi cung cấp một tiêu chuẩn cao về phân tích kỹ thuật và phân tích cơ bản,
                                     và một số hãng truyền thông hàng đầu thế giới dường như cũng có chung nhận định
                                     khi thường xuyên trích dẫn phân tích của chúng tôi.
@@ -189,7 +196,7 @@
                     <div class="intro-item">
                         <div class="intro-item-inner">
                             <div class="title-item">FBS - nhà môi giới Ngoại hối đáng tin cậy</div>
-                            <div class="content">
+                            <div class="content justify">
                                 Nhận lợi nhuận từ thị trường Ngoại hối với FBS thật dễ dàng và thuận tiện!
                                 Chúng tôi luôn cung cấp cho bạn những điều kiện tốt nhất cho người mới bắt đầu và cho cả
                                 những Trader giàu kinh nghiệm. FBS nhà một nhà môi giới lý tưởng để bắt đầu giao dịch

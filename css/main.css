@@ -1807,10 +1807,20 @@ a {
   font-family: 'Arial';
   text-decoration: none; }
 
+.justify {
+  text-align: justify !important; }
+
 .site-header {
   padding-top: 30px; }
+  .site-header img {
+    max-width: 100%;
+    height: auto; }
   .site-header .list-button {
     text-align: right; }
+    @media only screen and (max-width: 768px) {
+      .site-header .list-button {
+        margin-top: 15px;
+        margin-bottom: 15px; } }
     .site-header .list-button .icon {
       height: 90px;
       width: 75px;
@@ -1819,6 +1829,9 @@ a {
       color: #ffffff;
       text-align: center;
       vertical-align: top; }
+      @media only screen and (max-width: 768px) {
+        .site-header .list-button .icon {
+          width: 70px; } }
     .site-header .list-button .icon-question {
       background: #5a873b url("../img/question.png") no-repeat top 10px center;
       padding-top: 40px; }
@@ -1833,9 +1846,26 @@ a {
       padding-top: 40px; }
 
 .site-content .banner {
-  background: url("../img/bg-banner.png") no-repeat center;
-  background-size: cover;
-  padding-bottom: 30px; }
+  position: relative; }
+  .site-content .banner .slider-loading {
+    height: 380px;
+    width: 100%;
+    overflow: hidden; }
+    @media only screen and (max-width: 992px) {
+      .site-content .banner .slider-loading {
+        height: 520px; } }
+  .site-content .banner .slider-item {
+    height: 380px;
+    width: 100%; }
+    @media only screen and (max-width: 992px) {
+      .site-content .banner .slider-item {
+        height: 520px; } }
+  .site-content .banner .main-content-banner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; }
 .site-content .banner-left {
   float: left;
   width: 50%; }
@@ -1858,6 +1888,9 @@ a {
       width: 100%;
       height: 54px;
       background: url("../img/bg-bottom-form.png") no-repeat bottom center; }
+    @media only screen and (max-width: 768px) {
+      .site-content .banner-left form {
+        max-width: 100%; } }
     .site-content .banner-left form input {
       width: 100%;
       height: 35px;
@@ -1953,7 +1986,8 @@ a {
     .site-content .list-block .block-item {
       padding: 0 14px; } }
 .site-content .list-block .block-item-inner {
-  padding-left: 80px; }
+  padding-left: 80px;
+  padding-right: 10px; }
   .site-content .list-block .block-item-inner .title-item {
     color: #000000;
     font-size: 18px;
@@ -2023,13 +2057,16 @@ a {
     @media only screen and (max-width: 992px) {
       .site-content .block-video-right .intro-item {
         width: 100%;
-        padding-left: 0;
+        padding: 0;
         text-align: center; } }
     .site-content .block-video-right .intro-item .intro-item-inner {
       position: relative;
       padding: 50px;
       background: #f5f5f5;
       display: inline-block; }
+      @media only screen and (max-width: 480px) {
+        .site-content .block-video-right .intro-item .intro-item-inner {
+          padding: 25px 20px; } }
       .site-content .block-video-right .intro-item .intro-item-inner .bg-top-left {
         position: absolute;
         content: '';
@@ -2039,6 +2076,10 @@ a {
         width: 50px;
         left: 30px;
         top: 30px; }
+        @media only screen and (max-width: 480px) {
+          .site-content .block-video-right .intro-item .intro-item-inner .bg-top-left {
+            left: 15px;
+            top: 15px; } }
       .site-content .block-video-right .intro-item .intro-item-inner .bg-top-right {
         position: absolute;
         content: '';
@@ -2048,24 +2089,36 @@ a {
         width: 50px;
         right: 30px;
         top: 30px; }
+        @media only screen and (max-width: 480px) {
+          .site-content .block-video-right .intro-item .intro-item-inner .bg-top-right {
+            right: 15px;
+            top: 15px; } }
       .site-content .block-video-right .intro-item .intro-item-inner .bg-bot-left {
         position: absolute;
         content: '';
         z-index: 1;
-        background: url("../img/ramka-wrap-bot.png") no-repeat left;
+        background: url("../img/wrap-bot-left.png") no-repeat left;
         height: 50px;
         width: 50px;
         left: 30px;
         bottom: 30px; }
+        @media only screen and (max-width: 480px) {
+          .site-content .block-video-right .intro-item .intro-item-inner .bg-bot-left {
+            left: 15px;
+            bottom: 15px; } }
       .site-content .block-video-right .intro-item .intro-item-inner .bg-bot-right {
         position: absolute;
         content: '';
         z-index: 1;
-        background: url("../img/ramka-wrap-bot.png") no-repeat right;
+        background: url("../img/wrap-bot-right.png") no-repeat right;
         height: 50px;
         width: 50px;
         right: 30px;
         bottom: 30px; }
+        @media only screen and (max-width: 480px) {
+          .site-content .block-video-right .intro-item .intro-item-inner .bg-bot-right {
+            right: 15px;
+            bottom: 15px; } }
     .site-content .block-video-right .intro-item .content {
       color: #000000;
       font-size: 18px;
@@ -2073,6 +2126,9 @@ a {
       position: relative;
       z-index: 2;
       padding: 20px; }
+      @media only screen and (max-width: 480px) {
+        .site-content .block-video-right .intro-item .content {
+          padding: 30px 20px; } }
       .site-content .block-video-right .intro-item .content .button {
         width: 100%;
         padding: 5px 20px;

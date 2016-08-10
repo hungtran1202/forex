@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="caa5b672-3aea-4949-9b28-dcbe888538c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_site-content.scss" afterPath="$PROJECT_DIR$/sass/_site-content.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_site-header.scss" afterPath="$PROJECT_DIR$/sass/_site-header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/_site_global.scss" afterPath="$PROJECT_DIR$/sass/_site_global.scss" />
     </list>
     <ignored path="forex.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,9 +32,24 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4740">
-              <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="250">
+              <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,18 +57,18 @@
       <file leaf-file-name="_site-header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_site-header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_site-content.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_site-content.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/_site-content.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4845">
-              <caret line="323" column="7" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
+            <state relative-caret-position="735">
+              <caret line="325" column="9" selection-start-line="325" selection-start-column="9" selection-end-line="325" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -58,14 +77,14 @@
       <file leaf-file-name="_site-footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_site-footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="720">
               <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -78,8 +97,8 @@
       <file leaf-file-name="_site_global.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/_site_global.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -101,6 +120,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -110,13 +130,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sass/_site_global.scss" />
-        <option value="$PROJECT_DIR$/sass/_site-header.scss" />
-        <option value="$PROJECT_DIR$/sass/_site-content.scss" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/sass/_site-footer.scss" />
         <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/sass/_site-header.scss" />
+        <option value="$PROJECT_DIR$/sass/_site_global.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sass/_site-content.scss" />
       </list>
     </option>
   </component>
@@ -158,6 +179,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,8 +257,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,12 +331,14 @@
       <option name="presentableId" value="Default" />
       <updated>1470752282099</updated>
       <workItem from="1470752283856" duration="12286000" />
-      <workItem from="1470766109451" duration="124000" />
+      <workItem from="1470766109451" duration="188000" />
+      <workItem from="1470802076323" duration="932000" />
+      <workItem from="1470828098904" duration="1213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12410000" />
+    <option name="totallyTimeSpent" value="14619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="23" width="1333" height="877" extended-state="0" />
@@ -358,9 +381,140 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4740">
           <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4845">
+          <caret line="323" column="7" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4740">
+          <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -414,14 +568,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_site_global.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/ramka-wrap-top.png" />
     <entry file="file://$PROJECT_DIR$/img/ramka-wrap-bot.png" />
     <entry file="file://$PROJECT_DIR$/sass/main.scss">
@@ -432,33 +578,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_site-header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sass/_site-content.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4845">
-          <caret line="323" column="7" selection-start-line="323" selection-start-column="7" selection-end-line="323" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4740">
-          <caret line="316" column="26" selection-start-line="316" selection-start-column="26" selection-end-line="316" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/_site-footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="720">
           <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding />
         </state>
@@ -468,6 +590,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site_global.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="228" column="16" selection-start-line="228" selection-start-column="16" selection-end-line="228" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="100" column="30" selection-start-line="100" selection-start-column="30" selection-end-line="100" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_site-content.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="325" column="9" selection-start-line="325" selection-start-column="9" selection-end-line="325" selection-end-column="9" />
           <folding />
         </state>
       </provider>
